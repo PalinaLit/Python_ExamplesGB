@@ -37,9 +37,22 @@ dict_ru = {
     10: 'ФЩЪ'
 }
 
-print(dict_ru)
+
 
 word = input().upper()
+
+print(sum([result for i in word for result, j in dict_ru.items() if i in j]))
+# list_1 = [exp for item in iterable (if conditional)]
+
+
+
+
+    
+
+
+
+
+
 
 
 
