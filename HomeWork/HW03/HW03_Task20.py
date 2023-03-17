@@ -41,8 +41,21 @@ dict_ru = {
 
 word = input().upper()
 
-print(sum([result for i in word for result, j in dict_ru.items() if i in j]))
+result = 0
+
+for i in word:
+    for j in dict_ru:
+        if i.upper() in dict_ru[j]:
+            result += j
+
+print(result)
+
+
+# sum: суммировать содержимое итерируемого.
+
+# print(sum([result for i in word, result for j in dict_ru.items() if i in j]))
 # list_1 = [exp for item in iterable (if conditional)]
+  
 
 
 
