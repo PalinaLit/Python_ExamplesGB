@@ -14,16 +14,6 @@ for i in range(s):
         if s == i + j and p == i * j:
             print(f'x = {i}, y = {j}')
 
-#Таблица 
-
-
-# x + y = s             x = s - y
-# x * y = p       =>    (s - y) * y = p     =>      sy - y**2 - p = 0  //  y**2 - sy + p = 0
-
-
-# D = s**2 - 4p
-# x1,2 = (-s +- sqr(D)) / 2
-
 
 
 
