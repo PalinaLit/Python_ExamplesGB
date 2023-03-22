@@ -53,7 +53,8 @@ print(result)
 
 # sum: суммировать содержимое итерируемого.
 
-# print(sum([result for i in word, result for j in dict_ru.items() if i in j]))
+# ??????!
+print(sum([k for i in word for k, j in dict_ru.items() if i in j]))
 # list_1 = [exp for item in iterable (if conditional)]
   
 
