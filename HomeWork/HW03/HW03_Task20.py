@@ -57,6 +57,13 @@ print(result)
 # print(sum([k for i in word for k, j in dict_ru.items() if i in j]))
 # list_1 = [exp for item in iterable (if conditional)]
   
+# [expression1(item)                                        for item in iterable]
+
+# [expression1(item) if conditional1                        for item in iterable]
+
+# [expression1(item) if conditional1 else expression2(item) for item in iterable]
+
+# [expression1(item) if conditional1 else expression2(item) for item in iterable if conditional2]
 
 
 
